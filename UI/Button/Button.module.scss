@@ -1,0 +1,33 @@
+.button {
+  position: relative;
+  height: auto;
+  width: 20%;
+  min-width: max-content;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  gap: 10px;
+  opacity: 1;
+  border: 1px solid #323036;
+  // border-radius: 12px;
+  background: #fff;
+  color: #323036;
+  white-space: nowrap;
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.buttonActive {
+  background: #d9fd51;
+}
+
+@media screen and (max-width: 578px) {
+  .button {
+    padding: 2px 8px;
+  }
+}

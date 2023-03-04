@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url(./Satoshi-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url(./Satoshi-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url(./Satoshi-Regular.woff2) format("woff2");
+}
