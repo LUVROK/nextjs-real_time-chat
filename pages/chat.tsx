@@ -25,7 +25,7 @@ export default function Chat() {
   useEffect((): any => {
     auth ? null : router.push("/");
 
-    const socket = SocketIOClient.connect("https://nextjs-real-time-chat-navy.vercel.app/", {
+    const socket = SocketIOClient.connect("https://nextjs-real-time-chat-navy.vercel.app", {
       path: "/api/socketio",
     });
 
