@@ -19,7 +19,6 @@ export const authSlice = createSlice({
   name: "auth",
   initialState,
   reducers: {
-    // Action to set the authentication status
     setAuthState(state, action) {
       state.authState = action.payload;
     },
@@ -28,7 +27,6 @@ export const authSlice = createSlice({
     },
   },
 
-  // Special reducer for hydrating the state. Special case for next-redux-wrapper
   extraReducers: {
     [HYDRATE]: (state, action) => {
       return {
